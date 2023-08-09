@@ -1,10 +1,8 @@
 package com.vikas.udemy.mysqldataapp.service;
 
 import com.vikas.udemy.mysqldataapp.dto.UserDto;
-import com.vikas.udemy.mysqldataapp.entity.User;
 
 import java.util.List;
-import java.util.Optional;
 
 public interface UserService {
     UserDto saveUser(UserDto user);

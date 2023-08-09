@@ -5,17 +5,11 @@ import com.vikas.udemy.mysqldataapp.dto.UserDto;
 import com.vikas.udemy.mysqldataapp.entity.Address;
 import com.vikas.udemy.mysqldataapp.entity.User;
 import com.vikas.udemy.mysqldataapp.exception.EmailAlreadyExistException;
-import com.vikas.udemy.mysqldataapp.exception.ErrorDetails;
 import com.vikas.udemy.mysqldataapp.exception.UserNotFoundException;
 import com.vikas.udemy.mysqldataapp.repository.UserRepository;
 import lombok.AllArgsConstructor;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.context.request.WebRequest;
 
-import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
 
